@@ -24,7 +24,7 @@ dependencies:
     version: 12.2.3
   '@types/node':
     specifier: latest
-    version: 20.1.4
+    version: 20.1.5
   '@typescript-eslint/eslint-plugin':
     specifier: 5.59.5
     version: 5.59.5(@typescript-eslint/parser@5.59.5)(eslint@8.40.0)(typescript@5.0.4)
@@ -32,8 +32,8 @@ dependencies:
     specifier: 5.59.5
     version: 5.59.5(eslint@8.40.0)(typescript@5.0.4)
   '@unpic/qwik':
-    specifier: ^0.0.17
-    version: 0.0.17(@builder.io/qwik@1.1.2)
+    specifier: ^0.0.18
+    version: 0.0.18(@builder.io/qwik@1.1.2)
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.23)
@@ -69,7 +69,7 @@ dependencies:
     version: 5.0.4
   vite:
     specifier: 4.3.5
-    version: 4.3.5(@types/node@20.1.4)
+    version: 4.3.5(@types/node@20.1.5)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.0.4)(vite@4.3.5)
@@ -814,8 +814,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.1.4:
-    resolution: {integrity: sha512-At4pvmIOki8yuwLtd7BNHl3CiWNbtclUbNtScGx4OHfBd4/oWoJC8KRCIxXwkdndzhxOsPXihrsOoydxBjlE9Q==}
+  /@types/node@20.1.5:
+    resolution: {integrity: sha512-IvGD1CD/nego63ySR7vrAKEX3AJTcmrAN2kn+/sDNLi1Ff5kBzDeEdqWDplK+0HAEoLYej137Sk0cUU8OLOlMg==}
     dev: false
 
   /@types/normalize-package-data@2.4.1:
@@ -848,7 +848,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.1.4
+      '@types/node': 20.1.5
     dev: false
     optional: true
 
@@ -982,20 +982,20 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: false
 
-  /@unpic/core@0.0.22:
-    resolution: {integrity: sha512-62usKKKwU67TW8v4qT9lcbB6nanuj+3uhfduZ7dW4l4k6ovbrVkXcMPVSPwuwsmah9k0ddSOsL3QIc+9Di7SIQ==}
+  /@unpic/core@0.0.23:
+    resolution: {integrity: sha512-3vu/WmIxbgic25w31ITVFH4uUtYvmFYhKBLZXtf1NW0yTE9zOuhmxGxwllg4N6p/kl2q2TFO9eCC7iA3Dpo2Kw==}
     dependencies:
-      unpic: 3.5.0
+      unpic: 3.6.1
     dev: false
 
-  /@unpic/qwik@0.0.17(@builder.io/qwik@1.1.2):
-    resolution: {integrity: sha512-+drj90EX+ZjPjVkAuO5taABDAXczVayn2sxjjbzgXcerIHUvOS74sKoMT05qKu8i+ef4Ccyf4xRuf5MrTafZvg==}
+  /@unpic/qwik@0.0.18(@builder.io/qwik@1.1.2):
+    resolution: {integrity: sha512-Waw+tjGTyy6jr9RJbeutBk878Uh7M8pb36Iagk2UQSqodpnSCPzfFd9egy2MOkOYdnE9q1haERNbpwh1zDZD/A==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
       '@builder.io/qwik': 1.1.2(undici@5.22.1)
-      '@unpic/core': 0.0.22
+      '@unpic/core': 0.0.23
     dev: false
 
   /abab@2.0.6:
@@ -5953,8 +5953,8 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: false
 
-  /unpic@3.5.0:
-    resolution: {integrity: sha512-5e9p4E5MElX/pfrilIr+Be/9VGBiroCdLBxUSHGjRq/KUJBCHhPHxfZ2e+2b5YQ+7euqlYNqz02zimnGO51Bew==}
+  /unpic@3.6.1:
+    resolution: {integrity: sha512-4/ZAW3vXkvU2tpyuuAaIrlg58rh55EfzCFDJCxaaua/Ru8Q5f3bABjh5KQtQqRULzV6OaT05PF2pB6h1by98sg==}
     dev: false
 
   /update-browserslist-db@1.0.11(browserslist@4.21.5):
@@ -6054,13 +6054,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.5(@types/node@20.1.4)
+      vite: 4.3.5(@types/node@20.1.5)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: false
 
-  /vite@4.3.5(@types/node@20.1.4):
+  /vite@4.3.5(@types/node@20.1.5):
     resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6085,7 +6085,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.1.4
+      '@types/node': 20.1.5
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.5
