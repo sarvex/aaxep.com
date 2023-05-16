@@ -24,7 +24,7 @@
   "dependencies": {
     "@builder.io/qwik": "1.1.2",
     "@builder.io/qwik-city": "1.1.2",
-    "@divriots/jampack": "^0.11.4",
+    "@divriots/jampack": "^0.11.0",
     "@fontsource/inter": "^4.5.15",
     "@tailwindcss/typography": "^0.5.9",
     "@types/eslint": "8.37.0",
@@ -44,7 +44,7 @@
     "subfont": "^7.1.1",
     "tailwindcss": "^3.3.2",
     "typescript": "5.0.4",
-    "vite": "4.3.5",
+    "vite": "4.3.6",
     "vite-tsconfig-paths": "4.2.0"
   },
   "engines": {
