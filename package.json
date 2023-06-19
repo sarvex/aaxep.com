@@ -2,7 +2,6 @@
   "name": "aaxep",
   "description": "A template to make your website using Qwik + Tailwind CSS.",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "build": "qwik build && jampack ./dist",
     "build.client": "vite build",
