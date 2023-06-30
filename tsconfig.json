@@ -7,6 +7,7 @@
     "jsx": "react-jsx",
     "jsxImportSource": "@builder.io/qwik",
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -20,6 +21,6 @@
       "~/*": ["./src/*"]
     }
   },
-  "files": ["./eslint.config.cjs"],
-  "include": ["src"]
+  "files": ["./.eslintrc.cjs"],
+  "include": ["src", "./*.d.ts", "./*.config.ts"]
 }

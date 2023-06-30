@@ -29,7 +29,7 @@ export default component$(() => {
       onResolved={(post: Post) => (
         <section class="mx-auto py-8 sm:py-16 lg:py-20">
           <article>
-            <header class={post?.image ? "text-center" : ""}>
+            <header class={post.image ? "text-center" : ""}>
               <p class="mx-auto max-w-3xl px-4 sm:px-6">
                 <time dateTime={String(post.publishDate.getTime())}>
                   {post.publishDate.toLocaleDateString("en-us", {
@@ -89,7 +89,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
     meta: [
       {
         name: "description",
-        content: post?.excerpt,
+        content: post.excerpt,
       },
     ],
   };

@@ -45,7 +45,7 @@ export default component$(() => {
           >
             {menu && menu.items ? (
               <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-lg">
-                {menu.items?.map((item) => (
+                {menu.items.map((item) => (
                   <li class={`${item.items ? "dropdown" : ""}`}>
                     {item.href ? (
                       <a

@@ -11,7 +11,7 @@ export default component$((props: ItemProps) => {
   const { iconClass } = props;
   const store = useStore({
     theme:
-      (typeof window !== "undefined" && window?.localStorage?.theme) ||
+      (typeof window !== "undefined" && window.localStorage.theme) ||
       undefined,
   });
 
