@@ -2,7 +2,7 @@
   "name": "aaxep.com",
   "description": "Demo App with Routing built-in (recommended)",
   "engines": {
-    "node": ">=15.0.0"
+    "node": ">=18"
   },
   "private": true,
   "scripts": {
