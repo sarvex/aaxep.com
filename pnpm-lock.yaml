@@ -12,8 +12,8 @@ dependencies:
     specifier: 0.0.8
     version: 0.0.8(@builder.io/qwik@1.2.6)
   '@unpic/qwik':
-    specifier: 0.0.23
-    version: 0.0.23(@builder.io/qwik@1.2.6)
+    specifier: 0.0.25
+    version: 0.0.25(@builder.io/qwik@1.2.6)
   qwik-image:
     specifier: 0.0.7
     version: 0.0.7
@@ -3672,8 +3672,8 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@unpic/qwik@0.0.23(@builder.io/qwik@1.2.6):
-    resolution: {integrity: sha512-WK0bXrzj2WZk5mQE3waHWvCIgYm75nAkM/YDZaQjeJ0qrBGVjq2g0IC3yYoAM0f6UOFD9v1RPllpyQ92QnozAQ==}
+  /@unpic/qwik@0.0.25(@builder.io/qwik@1.2.6):
+    resolution: {integrity: sha512-8YvmmOwk7dWdtAlZFiNM+z7SWHJ/M6uoleVr8y82eeu2yxPvr5n8kUgG1MdXX+re0RBtumF1vfEe4GP2UJoFMg==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
