@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.2.6
     version: 1.2.6
   '@playwright/test':
-    specifier: 1.36.1
-    version: 1.36.1
+    specifier: 1.36.2
+    version: 1.36.2
   '@storybook/addon-essentials':
     specifier: 7.2.0
     version: 7.2.0(react-dom@18.2.0)(react@18.2.0)
@@ -42,16 +42,16 @@ devDependencies:
     version: 7.2.0(react-dom@18.2.0)(react@18.2.0)
   '@storybook/builder-vite':
     specifier: 7.2.0
-    version: 7.2.0(typescript@5.1.6)(vite@4.4.4)
+    version: 7.2.0(typescript@5.1.6)(vite@4.4.8)
   '@storybook/html':
     specifier: 7.2.0
     version: 7.2.0(@babel/core@7.22.9)
   '@storybook/html-vite':
     specifier: 7.2.0
-    version: 7.2.0(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.4)
+    version: 7.2.0(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.8)
   '@types/eslint':
-    specifier: 8.44.0
-    version: 8.44.0
+    specifier: 8.44.1
+    version: 8.44.1
   '@types/node':
     specifier: 20.4.5
     version: 20.4.5
@@ -66,7 +66,7 @@ devDependencies:
     version: 0.34.1(vitest@0.34.1)
   autoprefixer:
     specifier: 10.4.14
-    version: 10.4.14(postcss@8.4.26)
+    version: 10.4.14(postcss@8.4.27)
   eslint:
     specifier: 8.46.0
     version: 8.46.0
@@ -74,8 +74,8 @@ devDependencies:
     specifier: 1.2.6
     version: 1.2.6(eslint@8.46.0)
   postcss:
-    specifier: 8.4.26
-    version: 8.4.26
+    specifier: 8.4.27
+    version: 8.4.27
   prettier:
     specifier: 3.0.0
     version: 3.0.0
@@ -87,7 +87,7 @@ devDependencies:
     version: 7.2.0
   storybook-framework-qwik:
     specifier: 0.2.3
-    version: 0.2.3(@builder.io/qwik@1.2.6)(typescript@5.1.6)(vite@4.4.4)
+    version: 0.2.3(@builder.io/qwik@1.2.6)(typescript@5.1.6)(vite@4.4.8)
   tailwindcss:
     specifier: 3.3.3
     version: 3.3.3
@@ -101,11 +101,11 @@ devDependencies:
     specifier: 31.0.4
     version: 31.0.4(@types/node@20.4.5)
   vite:
-    specifier: 4.4.4
-    version: 4.4.4(@types/node@20.4.5)
+    specifier: 4.4.8
+    version: 4.4.8(@types/node@20.4.5)
   vite-tsconfig-paths:
     specifier: 4.2.0
-    version: 4.2.0(typescript@5.1.6)(vite@4.4.4)
+    version: 4.2.0(typescript@5.1.6)(vite@4.4.8)
   vitest:
     specifier: 0.34.1
     version: 0.34.1(@vitest/ui@0.34.1)
@@ -2301,13 +2301,13 @@ packages:
     dev: true
     optional: true
 
-  /@playwright/test@1.36.1:
-    resolution: {integrity: sha512-YK7yGWK0N3C2QInPU6iaf/L3N95dlGdbsezLya4n0ZCh3IL7VgPGxC6Gnznh9ApWdOmkJeleT2kMTcWPRZvzqg==}
+  /@playwright/test@1.36.2:
+    resolution: {integrity: sha512-2rVZeyPRjxfPH6J0oGJqE8YxiM1IBRyM8hyrXYK7eSiAqmbNhxwcLa7dZ7fy9Kj26V7FYia5fh9XJRq4Dqme+g==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@types/node': 20.4.5
-      playwright-core: 1.36.1
+      playwright-core: 1.36.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -3146,7 +3146,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.2.0(typescript@5.1.6)(vite@4.4.4):
+  /@storybook/builder-vite@7.2.0(typescript@5.1.6)(vite@4.4.8):
     resolution: {integrity: sha512-YmTtyIMxWKaFOsJaLU5rGHukvt37LjVvW6QEAEK1Clbl1f3QUNSEGJwVYLRYO7xQvhymBF4JMa8N5NSc1+xSEQ==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -3181,7 +3181,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.26.3
       typescript: 5.1.6
-      vite: 4.4.4(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.5)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3524,12 +3524,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.2.0(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.4):
+  /@storybook/html-vite@7.2.0(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.8):
     resolution: {integrity: sha512-Hpb59b3YYUJUrnjH+ICKMB8XfEc90zJBVoE+M43XlcFNa+M83dNGYyO/qZEWTK5bNyqiSXSdqCd2NHyX97iDZg==}
     engines: {node: ^14.18 || >=16}
     dependencies:
       '@storybook/addons': 7.2.0(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/builder-vite': 7.2.0(typescript@5.1.6)(vite@4.4.4)
+      '@storybook/builder-vite': 7.2.0(typescript@5.1.6)(vite@4.4.8)
       '@storybook/client-api': 7.2.0
       '@storybook/core-server': 7.2.0
       '@storybook/html': 7.2.0(@babel/core@7.22.9)
@@ -3872,8 +3872,8 @@ packages:
     resolution: {integrity: sha512-H90aoynNhhkQP6DRweEjJp5vfUVdIj7tdPLsu7pq89vODD/lcugKfZOsfgwpvM6XUewEp2N5dCg1Uf3Qe55Dcg==}
     dev: true
 
-  /@types/eslint@8.44.0:
-    resolution: {integrity: sha512-gsF+c/0XOguWgaOgvFs+xnnRqt9GwgTvIks36WpE6ueeI4KCEHHd8K/CKHqhOqrJKsYH8m27kRzQEvWXAwXUTw==}
+  /@types/eslint@8.44.1:
+    resolution: {integrity: sha512-XpNDc4Z5Tb4x+SW1MriMVeIsMoONHCkWFMkR/aPJbzEsxqHy+4Glu/BqTdPrApfDeMaXbtNh6bseNgl5KaWrSg==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.12
@@ -4277,7 +4277,7 @@ packages:
       lodash: 4.17.21
       mlly: 1.4.0
       outdent: 0.8.0
-      vite: 4.4.4(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.5)
       vite-node: 0.28.5(@types/node@20.4.5)
     transitivePeerDependencies:
       - '@types/node'
@@ -4473,10 +4473,10 @@ packages:
       picocolors: 1.0.0
       picomatch: 2.3.1
       pidtree: 0.6.0
-      postcss: 8.4.26
-      postcss-discard-duplicates: 5.1.0(postcss@8.4.26)
-      postcss-load-config: 4.0.1(postcss@8.4.26)
-      postcss-modules: 6.0.0(postcss@8.4.26)
+      postcss: 8.4.27
+      postcss-discard-duplicates: 5.1.0(postcss@8.4.27)
+      postcss-load-config: 4.0.1(postcss@8.4.27)
+      postcss-modules: 6.0.0(postcss@8.4.27)
       prettier: 2.8.8
       pretty-ms: 7.0.1
       proxy-agent: 5.0.0
@@ -4900,7 +4900,7 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.26):
+  /autoprefixer@10.4.14(postcss@8.4.27):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -4912,7 +4912,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.26
+      postcss: 8.4.27
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -7511,13 +7511,13 @@ packages:
       safer-buffer: 2.1.2
     dev: true
 
-  /icss-utils@5.1.0(postcss@8.4.26):
+  /icss-utils@5.1.0(postcss@8.4.27):
     resolution: {integrity: sha512-soFhflCVWLfRNOPU3iv5Z9VUdT44xFRbzjLsEzSr5AQmgqPMTHdU3PMT1Cf1ssx8fLNJDA1juftYl+PUcv3MqA==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.26
+      postcss: 8.4.27
     dev: true
 
   /ieee754@1.2.1:
@@ -9491,8 +9491,8 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /playwright-core@1.36.1:
-    resolution: {integrity: sha512-7+tmPuMcEW4xeCL9cp9KxmYpQYHKkyjwoXRnoeTowaeNat8PoBMk/HwCYhqkH2fRkshfKEOiVus/IhID2Pg8kg==}
+  /playwright-core@1.36.2:
+    resolution: {integrity: sha512-sQYZt31dwkqxOrP7xy2ggDfEzUxM1lodjhsQ3NMMv5uGTRDsLxU0e4xf4wwMkF2gplIxf17QMBCodSFgm6bFVQ==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
@@ -9504,38 +9504,38 @@ packages:
       '@babel/runtime': 7.22.6
     dev: true
 
-  /postcss-discard-duplicates@5.1.0(postcss@8.4.26):
+  /postcss-discard-duplicates@5.1.0(postcss@8.4.27):
     resolution: {integrity: sha512-zmX3IoSI2aoenxHV6C7plngHWWhUOV3sP1T8y2ifzxzbtnuhk1EdPwm0S1bIUNaJ2eNbWeGLEwzw8huPD67aQw==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      postcss: 8.4.26
+      postcss: 8.4.27
     dev: true
 
-  /postcss-import@15.1.0(postcss@8.4.26):
+  /postcss-import@15.1.0(postcss@8.4.27):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.26
+      postcss: 8.4.27
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.2
     dev: true
 
-  /postcss-js@4.0.1(postcss@8.4.26):
+  /postcss-js@4.0.1(postcss@8.4.27):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.26
+      postcss: 8.4.27
     dev: true
 
-  /postcss-load-config@4.0.1(postcss@8.4.26):
+  /postcss-load-config@4.0.1(postcss@8.4.27):
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -9548,74 +9548,74 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.26
+      postcss: 8.4.27
       yaml: 2.3.1
     dev: true
 
-  /postcss-modules-extract-imports@3.0.0(postcss@8.4.26):
+  /postcss-modules-extract-imports@3.0.0(postcss@8.4.27):
     resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.26
+      postcss: 8.4.27
     dev: true
 
-  /postcss-modules-local-by-default@4.0.3(postcss@8.4.26):
+  /postcss-modules-local-by-default@4.0.3(postcss@8.4.27):
     resolution: {integrity: sha512-2/u2zraspoACtrbFRnTijMiQtb4GW4BvatjaG/bCjYQo8kLTdevCUlwuBHx2sCnSyrI3x3qj4ZK1j5LQBgzmwA==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.26)
-      postcss: 8.4.26
+      icss-utils: 5.1.0(postcss@8.4.27)
+      postcss: 8.4.27
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-modules-scope@3.0.0(postcss@8.4.26):
+  /postcss-modules-scope@3.0.0(postcss@8.4.27):
     resolution: {integrity: sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.26
+      postcss: 8.4.27
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /postcss-modules-values@4.0.0(postcss@8.4.26):
+  /postcss-modules-values@4.0.0(postcss@8.4.27):
     resolution: {integrity: sha512-RDxHkAiEGI78gS2ofyvCsu7iycRv7oqw5xMWn9iMoR0N/7mf9D50ecQqUo5BZ9Zh2vH4bCUR/ktCqbB9m8vJjQ==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.26)
-      postcss: 8.4.26
+      icss-utils: 5.1.0(postcss@8.4.27)
+      postcss: 8.4.27
     dev: true
 
-  /postcss-modules@6.0.0(postcss@8.4.26):
+  /postcss-modules@6.0.0(postcss@8.4.27):
     resolution: {integrity: sha512-7DGfnlyi/ju82BRzTIjWS5C4Tafmzl3R79YP/PASiocj+aa6yYphHhhKUOEoXQToId5rgyFgJ88+ccOUydjBXQ==}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
       generic-names: 4.0.0
-      icss-utils: 5.1.0(postcss@8.4.26)
+      icss-utils: 5.1.0(postcss@8.4.27)
       lodash.camelcase: 4.3.0
-      postcss: 8.4.26
-      postcss-modules-extract-imports: 3.0.0(postcss@8.4.26)
-      postcss-modules-local-by-default: 4.0.3(postcss@8.4.26)
-      postcss-modules-scope: 3.0.0(postcss@8.4.26)
-      postcss-modules-values: 4.0.0(postcss@8.4.26)
+      postcss: 8.4.27
+      postcss-modules-extract-imports: 3.0.0(postcss@8.4.27)
+      postcss-modules-local-by-default: 4.0.3(postcss@8.4.27)
+      postcss-modules-scope: 3.0.0(postcss@8.4.27)
+      postcss-modules-values: 4.0.0(postcss@8.4.27)
       string-hash: 1.1.3
     dev: true
 
-  /postcss-nested@6.0.1(postcss@8.4.26):
+  /postcss-nested@6.0.1(postcss@8.4.27):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.26
+      postcss: 8.4.27
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -9631,8 +9631,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.26:
-    resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
+  /postcss@8.4.27:
+    resolution: {integrity: sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -10701,14 +10701,14 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.3(@builder.io/qwik@1.2.6)(typescript@5.1.6)(vite@4.4.4):
+  /storybook-framework-qwik@0.2.3(@builder.io/qwik@1.2.6)(typescript@5.1.6)(vite@4.4.8):
     resolution: {integrity: sha512-JCfjqGdC+9f/ClfO0tN1YFdDByJBiU+uIl5vGHvn6QPwwVBCk/lwU7HKS3UHHL3fIX9Vd4k4RvVSdk7+ZSvgTA==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
       '@builder.io/qwik': 1.2.6(undici@5.22.1)
-      '@storybook/builder-vite': 7.2.0(typescript@5.1.6)(vite@4.4.4)
+      '@storybook/builder-vite': 7.2.0(typescript@5.1.6)(vite@4.4.8)
       '@storybook/docs-tools': 7.1.0
       magic-string: 0.30.1
       react-docgen-typescript: 2.2.2(typescript@5.1.6)
@@ -10937,11 +10937,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.26
-      postcss-import: 15.1.0(postcss@8.4.26)
-      postcss-js: 4.0.1(postcss@8.4.26)
-      postcss-load-config: 4.0.1(postcss@8.4.26)
-      postcss-nested: 6.0.1(postcss@8.4.26)
+      postcss: 8.4.27
+      postcss-import: 15.1.0(postcss@8.4.27)
+      postcss-js: 4.0.1(postcss@8.4.27)
+      postcss-load-config: 4.0.1(postcss@8.4.27)
+      postcss-nested: 6.0.1(postcss@8.4.27)
       postcss-selector-parser: 6.0.13
       resolve: 1.22.2
       sucrase: 3.34.0
@@ -11700,7 +11700,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.4.4(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11722,7 +11722,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.4.4(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11734,7 +11734,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.4):
+  /vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.8):
     resolution: {integrity: sha512-jGpus0eUy5qbbMVGiTxCL1iB9ZGN6Bd37VGLJU39kTDD6ZfULTTb1bcc5IeTWqWJKiWV5YihCaibeASPiGi8kw==}
     peerDependencies:
       vite: '*'
@@ -11745,14 +11745,14 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.2(typescript@5.1.6)
-      vite: 4.4.4(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.5)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.4.4(@types/node@20.4.5):
-    resolution: {integrity: sha512-4mvsTxjkveWrKDJI70QmelfVqTm+ihFAb6+xf4sjEU2TmUCTlVX87tmg/QooPEMQb/lM9qGHT99ebqPziEd3wg==}
+  /vite@4.4.8(@types/node@20.4.5):
+    resolution: {integrity: sha512-LONawOUUjxQridNWGQlNizfKH89qPigK36XhMI7COMGztz8KNY0JHim7/xDd71CZwGT4HtSRgI7Hy+RlhG0Gvg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -11781,7 +11781,7 @@ packages:
     dependencies:
       '@types/node': 20.4.5
       esbuild: 0.18.14
-      postcss: 8.4.26
+      postcss: 8.4.27
       rollup: 3.26.3
     optionalDependencies:
       fsevents: 2.3.2
@@ -11840,7 +11840,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 4.4.4(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.5)
       vite-node: 0.34.1(@types/node@20.4.5)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
